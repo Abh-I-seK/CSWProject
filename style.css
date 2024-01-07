@@ -100,4 +100,10 @@ h3 {
   .homemain {
     flex-direction: column;
   }
+  .bottom {
+    margin: auto;
+    font-size: smaller;
+    padding-left: 25;
+    padding-right: 5;
+  }
 }
