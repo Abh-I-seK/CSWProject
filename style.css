@@ -1,0 +1,96 @@
+body {
+  background-color: #e5ba73;
+}
+#div1 {
+  margin-top: 60px;
+  text-align: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#btn1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.h1a {
+  font-size: 40;
+}
+h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.nav-link {
+  color: #f5e2ce;
+}
+#nav1.scrolled {
+  background-color: rgb(82, 80, 80) !important;
+  transition: background-color 300ms linear;
+  color: #f5e2ce;
+}
+#nav1.scrolled :hover {
+  color: #6db9ef;
+}
+.img1 {
+  width: 200px;
+}
+.div3 {
+  background-color: #c58940;
+  padding: 16px;
+}
+.div2 {
+  background-color: whitesmoke;
+  padding: 50px;
+  border: 2px solid goldenrod;
+  margin: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 400px;
+  height: 400px;
+  cursor: pointer;
+}
+
+.bottom {
+  background-color: #e7d3af;
+  margin: 0;
+  padding-top: 80px;
+  padding-bottom: 0px;
+}
+
+.copyright {
+  color: #e3ab52;
+  padding-right: 15px;
+}
+
+.mainImg {
+  width: 100%;
+}
+
+.homepageimg {
+  width: 60%;
+}
+
+.autoTextDiv {
+  margin-left: 50;
+  margin-top: 120;
+  margin-right: 30;
+}
+
+@media screen and (max-width: 900px) {
+  .homepageimg {
+    margin-top: 25px;
+    width: 100%;
+  }
+
+  #nright {
+    margin: auto;
+  }
+
+  #nleft {
+    margin: auto;
+  }
+
+  .autoTextDiv {
+    margin: auto;
+    margin-top: 25px;
+  }
+
+  .homemain {
+    flex-direction: column;
+  }
+}
