@@ -143,6 +143,11 @@ i {
   color: var(--icon_color);
 }
 
+#form_wrapper {
+  width: auto;
+  height: auto;
+}
+
 /* make it responsive */
 @media screen and (max-width: 768px) {
   /* make the layout  a single column and add some margin to the wrapper */
