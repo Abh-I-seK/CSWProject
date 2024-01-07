@@ -71,6 +71,12 @@ h3 {
   margin-right: 30;
 }
 
+@media screen and (max-width: 390px) {
+  #home {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 900px) {
   .homepageimg {
     margin-top: 25px;
@@ -79,6 +85,7 @@ h3 {
 
   #nright {
     margin: auto;
+    font-size: smaller;
   }
 
   #nleft {
